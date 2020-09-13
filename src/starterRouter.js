@@ -1,21 +1,42 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Header from "./layout/starter/StarterHeader";
+import MainHeader from "./layout/starter/StarterHeader";
+import SubHeader from "./layout/starter/SubHeader";
 import Footer from "./layout/starter/StarterFooter";
 import Starter from "./views/Starter.vue";
+import Description from "./views/Description.vue";
 
 Vue.use(Router);
 
 export default new Router({
+  mode: "history",
   routes: [
     {
       path: "/",
       name: "starter",
       components: {
-        header: Header,
+        header: MainHeader,
         default: Starter,
-        footer: Footer
-      }
-    }
-  ]
+        footer: Footer,
+      },
+    },
+    {
+      path: "/description",
+      name: "description",
+      components: {
+        header: SubHeader,
+        default: Description,
+        footer: Footer,
+      },
+    },
+    {
+      path: "/research",
+      name: "research",
+      components: {
+        header: SubHeader,
+        default: Description,
+        footer: Footer,
+      },
+    },
+  ],
 });
