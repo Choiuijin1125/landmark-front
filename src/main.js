@@ -26,4 +26,16 @@ Vue.use(Argon);
 new Vue({
   router,
   render: (h) => h(App),
+  methods: {
+    fetchData: function() {
+      axios
+        .get("https://jsonplaceholder.typicode.com/users/")
+        .then(function(response) {
+          console.log(response);
+        })
+        .catch(function(error) {
+          console.log(error);
+        });
+    },
+  },
 }).$mount("#app");
