@@ -60,7 +60,7 @@
         <li class="nav-item dropdown">
           <a href="/research" class="nav-link" data-toggle="dropdown" role="button">
             <i class="ni ni-collection d-lg-none"></i>
-            <span class="nav-link-inner--text">연구</span>
+            <span class="nav-link-inner--text">연구 과정</span>
           </a>
           <div class="dropdown-menu">
             <router-link to="/landing" class="dropdown-item">Landing</router-link>
@@ -70,9 +70,9 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a href="#" class="nav-link" role="button">
+          <a href="/service" class="nav-link" role="button">
             <i class="ni ni-collection d-lg-none"></i>
-            <span class="nav-link-inner--text">응용 서비스 구현</span>
+            <span class="nav-link-inner--text">응용 서비스</span>
           </a>
         </li>
       </ul>

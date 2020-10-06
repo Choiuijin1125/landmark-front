@@ -305,7 +305,7 @@
         var frm = new FormData();
         frm.append("file", this.uploadedImage);
         axios
-          .post("http://localhost:5000/fileUpload", frm, {
+          .post("http://15.165.113.21:5000/fileUpload", frm, {
             headers: {
               "Content-Type": "multipart/form-data",
               "Access-Control-Allow-Origin": "*",
@@ -322,7 +322,7 @@
         var frm = new FormData();
         frm.append("file", this.uploadedImage);
         axios
-          .post("http://localhost:5000/fileUpload", frm, {
+          .post("http://15.165.113.21:5000/fileUpload", frm, {
             headers: {
               "Content-Type": "multipart/form-data",
             },

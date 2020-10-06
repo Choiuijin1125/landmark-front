@@ -5,6 +5,7 @@ import SubHeader from "./layout/starter/SubHeader";
 import Footer from "./layout/starter/StarterFooter";
 import Starter from "./views/Starter.vue";
 import Description from "./views/Description.vue";
+import Service from "./views/Service.vue";
 
 Vue.use(Router);
 
@@ -36,7 +37,16 @@ export default new Router({
         header: SubHeader,
         default: Description,
         footer: Footer,
-      },
+      }
+    },
+     {
+        path: "/service",
+        name: "service",
+        components: {
+          header: SubHeader,
+          default: Service,
+          footer: Footer,
+        },
     },
   ],
 });
