@@ -5,7 +5,9 @@ import SubHeader from "./layout/starter/SubHeader";
 import Footer from "./layout/starter/StarterFooter";
 import Starter from "./views/Starter.vue";
 import Description from "./views/Description.vue";
+import Research from "./views/Research.vue";
 import Service from "./views/Service.vue";
+import Components from "./views/Components.vue";
 
 Vue.use(Router);
 
@@ -35,7 +37,7 @@ export default new Router({
       name: "research",
       components: {
         header: SubHeader,
-        default: Description,
+        default: Research,
         footer: Footer,
       }
     },
@@ -48,5 +50,14 @@ export default new Router({
           footer: Footer,
         },
     },
+    {
+      path: "/Components",
+      name: "Components",
+      components: {
+        header: SubHeader,
+        default: Components,
+        footer: Footer,
+      },
+  },
   ],
 });

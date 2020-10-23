@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer has-cards">
+  <footer class="has-cards">
     <div class="container container-lg"></div>
     <div class="container">
       <div class="row row-grid align-items-center my-md">
@@ -17,27 +17,27 @@
       <div class="container">
         <div class="row row-grid my-md justify-content-between">
           <img
-            src="img/theme/team-2-800x800.jpg"
-            class="rounded-circle"
-            style="width: 150px;"
+            src="img/brand/pcn.png"
+            class="img-fluid"
+            style="height: 60px"
             alt="pcn"
           />
           <img
-            src="img/theme/team-2-800x800.jpg"
-            class="rounded-circle"
-            style="width: 150px;"
+            src="img/brand/dacon.jpeg"
+            class="img-fluid"
+            style="height: 60px"
             alt="dacon"
           />
           <img
-            src="img/theme/team-2-800x800.jpg"
-            class="rounded-circle"
-            style="width: 150px;"
+            src="img/brand/crowdworks.png"
+            class="img-fluid"
+            style="height: 60px"
             alt="dacon"
           />
           <img
-            src="img/theme/team-2-800x800.jpg"
-            class="rounded-circle"
-            style="width: 150px;"
+            src="img/brand/nia.jpg"
+            class="img-fluid"
+            style="height: 60px"
             alt="dacon"
           />
         </div>

@@ -22,52 +22,12 @@
             <i class="ni ni-ui-04 d-lg-none"></i>
             <span class="nav-link-inner--text">데이터셋 소개</span>
           </a>
-          <div class="dropdown-menu dropdown-menu-xl">
-            <div class="dropdown-menu-inner">
-              <a
-                href="https://demos.creative-tim.com/argon-design-system/docs/getting-started/overview.html"
-                class="media d-flex align-items-center"
-              >
-                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                  <i class="ni ni-spaceship"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h6 class="heading text-primary mb-md-1">Getting started</h6>
-                  <p class="description d-none d-md-inline-block mb-0">
-                    Get started with Bootstrap, the
-                    world's most popular framework for building responsive sites.
-                  </p>
-                </div>
-              </a>
-              <a
-                href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
-                class="media d-flex align-items-center"
-              >
-                <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                  <i class="ni ni-ui-04"></i>
-                </div>
-                <div class="media-body ml-3">
-                  <h5 class="heading text-warning mb-md-1">Components</h5>
-                  <p class="description d-none d-md-inline-block mb-0">
-                    Learn how to use Argon
-                    compiling Scss, change brand colors and more.
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
         </li>
         <li class="nav-item dropdown">
           <a href="/research" class="nav-link" data-toggle="dropdown" role="button">
             <i class="ni ni-collection d-lg-none"></i>
             <span class="nav-link-inner--text">연구 과정</span>
           </a>
-          <div class="dropdown-menu">
-            <router-link to="/landing" class="dropdown-item">Landing</router-link>
-            <router-link to="/profile" class="dropdown-item">Profile</router-link>
-            <router-link to="/login" class="dropdown-item">Login</router-link>
-            <router-link to="/register" class="dropdown-item">Register</router-link>
-          </div>
         </li>
         <li class="nav-item dropdown">
           <a href="/service" class="nav-link" role="button">

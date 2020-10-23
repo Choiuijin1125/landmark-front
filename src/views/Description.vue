@@ -1,22 +1,220 @@
 /<template>
   <div class="position-relative">
-    <section class="section pt-150 section-components">
+    <section class="section pt-150 pb-2 section-components">
       <div class="container mb-5">
-        <h2 class="h2 text-lg-center font-weight-bold mb-5">연구과정</h2>
+        <h2 class="h2 text-lg-center font-weight-bold mb-5">데이터셋 소개</h2>
         <div class="mb-3">
           <small class="h3 text-uppercase font-weight-bold"
             >데이터셋 구축 목표</small
           >
         </div>
-        <div class="col-12 mb-5">
-          <p class="text-center lead">
-            전국 50개 도시, 500개 랜드마크, 각 200장 총 500만장의 데이터셋 구축
+        <div class="col-12 mb-3">
+          <p class="text-center font-weight-bold lead">
+            전국 50개 도시, 500개 랜드마크, 이미지별 200장 총 500만장의 데이터셋 구축
           </p>
+        </div>
+        <div class="col-12 mb-3">
+          <img
+                alt="Rounded image"
+                class="img-fluid rounded mt-4 mb-4"
+                src="img/source/main-summary.svg"
+                lazy="loaded"
+                style="width: 1000px;"
+              />
+        </div>
+        <div class="col-12 mb-5">
+          <table class="table-sm table">
+              <thead>
+                  <tr>
+                      <th class="text-center">#</th>
+                      <th>구 분</th>
+                      <th>랜드마크 수</th>
+                      <th>시 군 구</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td class="text-center">1</td>
+                      <td>강원도</td>
+                      <td>1790개</td>
+                      <td>00개 도시</td>
+                  </tr>
+                  <tr>
+                      <td class="text-center">2</td>
+                      <td>경기도</td>
+                      <td>7264개</td>
+                      <td>00개 도시</td>
+                  </tr>
+                  <tr>
+                      <td class="text-center">3</td>
+                      <td>경상남도</td>
+                      <td>2569개</td>
+                      <td>00개 도시</td>
+                  </tr>
+                  <tr>
+                      <td class="text-center">4</td>
+                      <td>경상북도</td>
+                      <td>2711개</td>
+                      <td>00개 도시</td>
+                  </tr>
+                  <tr>
+                      <td class="text-center">5</td>
+                      <td>광주광역시</td>
+                      <td>463개</td>
+                      <td>00개 도시</td>
+                  </tr>
+                  <tr>
+                      <td class="text-center">6</td>
+                      <td>대구광역시</td>
+                      <td>748개</td>
+                      <td>00개 도시</td>
+                  </tr>
+                  <tr>
+                      <td class="text-center">7</td>
+                      <td>부산시</td>
+                      <td>2565개</td>
+                      <td>00개 도시</td>
+                  </tr>
+                  <tr>
+                      <td class="text-center">8</td>
+                      <td>서울특별시</td>
+                      <td>2226개</td>
+                      <td>00개 도시</td>
+                  </tr>
+                  <tr>
+                      <td class="text-center">9</td>
+                      <td>울산광역시</td>
+                      <td>403개</td>
+                      <td>00개 도시</td>
+                  </tr>
+                  <tr>
+                      <td class="text-center">10</td>
+                      <td>인천광역시</td>
+                      <td>1011개</td>
+                      <td>00개 도시</td>
+                  </tr>
+                  <tr>
+                      <td class="text-center">11</td>
+                      <td>전라남도</td>
+                      <td>1791개</td>
+                      <td>00개 도시</td>
+                  </tr>
+                  <tr>
+                      <td class="text-center">12</td>
+                      <td>전라북도</td>
+                      <td>1791개</td>
+                      <td>00개 도시</td>
+                  </tr>
+                  <tr>
+                      <td class="text-center">13</td>
+                      <td>제주특별자치도</td>
+                      <td>1001개</td>
+                      <td>00개 도시</td>
+                  </tr>
+                  <tr>
+                      <td class="text-center">14</td>
+                      <td>충청남도</td>
+                      <td>1261개</td>
+                      <td>00개 도시</td>
+                  </tr>
+                  <tr>
+                      <td class="text-center">15</td>
+                      <td>충청북도</td>
+                      <td>1038개</td>
+                      <td>00개 도시</td>
+                  </tr>
+              </tbody>
+          </table>
+        </div>
+        <div class="col-12 mb-5">
+          <div class="row text-center">
+            <div class="col-6">
+              <img
+                alt="Rounded image"
+                class="img-fluid rounded mb-4"
+                src="img/source/main_static.png"
+                lazy="loaded"
+                style="width: 500px;"
+              />
+            </div>
+            <div class="col-6">
+              <img
+                alt="Rounded image"
+                class="img-fluid rounded mb-4"
+                src="img/source/main_geo.png"
+                lazy="loaded"
+                style="width: 500px;"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <section class="section pt-150 section-components">
+    <section class="section pt-1 section-components">
       <div class="py-5 bg-secondary">
+        <div class="container">
+          <div class="mb-3">
+            <small class="h3 text-uppercase font-weight-bold"
+              >대표 도면</small
+            >
+          </div>
+          <div class="row text-center">
+            <div class="col-12">
+              <img
+                alt="Rounded image"
+                class="img-fluid rounded shadow mb-4"
+                src="img/source/main_landmark.jpg"
+                lazy="loaded"
+                style="width: 1920px;"
+              />
+              <small class=" h4 d-block text-uppercase font-weight-bold"
+                >광화문</small
+              >
+            </div>
+            
+
+          </div>
+          <div class="text-left">
+            <div class="json">
+              <div class="jsonreg">{</div>
+              <div class="jsonk">"info" : info,</div>
+              <div class="jsonk">"images" : [image],</div>
+              <div class="jsonk">"annotations": [annotation],</div>
+              <div class="jsonk">"licenses"   : [license],</div>
+              <div class="jsonreg">}</div>
+              <br>
+              <div class="jsonreg">info{</div>
+              <div class="jsonk">"description"       : int,</div>
+              <div class="jsonk">"version"    : str,</div>
+              <div class="jsonk">"description": str,</div>
+              <div class="jsonk">"contributor": str,</div>
+              <div class="jsonk">"url"        : str,</div>
+              <div class="jsonk">"date_created" : datetime,</div>
+              <div class="jsonreg">}</div>
+              <br>
+              <div class="jsonreg">image{</div>
+              <div class="jsonk">"id"           : int,</div>
+              <div class="jsonk">"width"        : int,</div>
+              <div class="jsonk">"height"       : int,</div>
+              <div class="jsonk">"file_name"    : str,</div>
+              <div class="jsonk">"license"      : int,</div>
+              <div class="jsonk">"flickr_url"   : str,</div>
+              <div class="jsonk">"coco_url"     : str,</div>
+              <div class="jsonk">"date_captured": datetime,</div>
+              <div class="jsonreg">}</div>
+              <br>
+              <div class="jsonreg">license{</div>
+              <div class="jsonk">"id"             : int,</div>
+              <div class="jsonk">"name"           : str,</div>
+              <div class="jsonk">"url"            : str,</div>
+              <div class="jsonreg">}</div>
+</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section pt-0 section-components">
+      <div class="py-1">
         <div class="container">
           <div class="mb-3">
             <small class="h3 text-uppercase font-weight-bold"
@@ -103,189 +301,7 @@
         </div>
       </div>
     </section>
-    <section class="section section-components">
-      <div class="py-5">
-        <div class="container">
-          <div class="mb-3">
-            <small class="h3 text-uppercase font-weight-bold"
-              >인공지능 알고리즘</small
-            >
-          </div>
-          <h3 class="h4 font-weight-bold mb-4">
-            A Large Scale Instance-Level Recognition
-          </h3>
-          <div class="row text-center mb-4 pb-50">
-            <div class="col-12">
-              <img
-                alt="Rounded image"
-                class="img-fluid rounded shadow mb-4"
-                src="img/icons/common/resnet.png"
-                lazy="loaded"
-              />
-              <small class="d-block text-uppercase font-weight-bold"
-                >ResNet50</small
-              >
-            </div>
-          </div>
-          <h3 class="h4 font-weight-bold mb-4">
-            A Large Scale Image Retrieval
-          </h3>
-          <div class="row text-center">
-            <div class="col-12">
-              <img
-                alt="Rounded image"
-                class="img-fluid rounded shadow mb-4"
-                src="img/icons/common/delf.jpg"
-                lazy="loaded"
-              />
-              <small class="d-block text-uppercase font-weight-bold"
-                >Delf</small
-              >
-            </div>
-          </div>
-          <div class="container pt-100">
-            <h2 class="h2 text-lg-center font-weight-bold mb-5">연구과정</h2>
-            <ul class="refer_list">
-              <li>
-                Jaderberg, M.; Vedaldi, A.; and Zisserman, A. 2014. Deep
-                features for text spotting. In Computer Vision - ECCV 2014,
-                number 8692 in Lecture Notes in Computer Science, 512–528.
-                Springer International Publishing
-                <a
-                  href="https://www.robots.ox.ac.uk/~vgg/publications/2014/Jaderberg14/jaderberg14.pdf"
-                  target="_blank"
-                  title="새창"
-                  class="ref_lk"
-                  >새창</a
-                >
-              </li>
-              <li>
-                Mishra, A.; Alahari, K.; and Jawahar, C. 2012. Scene text
-                recognition using higher order language priors. In BMVC 2012-
-                23rd British Machine Vision Conference, 127.1–127.11. British
-                Machine Vision Association. Nair, V., and Hinton, G. E. 2010
-                <a
-                  href="https://www.di.ens.fr/willow/pdfscurrent/mishra12a.pdf"
-                  target="_blank"
-                  title="새창"
-                  class="ref_lk"
-                  >새창</a
-                >
-              </li>
-              <li>
-                Yao, C.; Bai, X.; Shi, B.; and Liu, W. 2014. Strokelets: A
-                learned multi-scale representation for scene text recognition.
-                In Proceedings of the IEEE Conference on Computer Vision and
-                Pattern Recognition, 40
-                <a
-                  href="https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Yao_Strokelets_A_Learned_2014_CVPR_paper.pdf"
-                  target="_blank"
-                  title="새창"
-                  class="ref_lk"
-                  >새창</a
-                >
-              </li>
-              <li>
-                Attention-based Extraction of Structured Information from Street
-                View Imagery
-                <a
-                  href="https://arxiv.org/pdf/1704.03549.pdf"
-                  target="_blank"
-                  title="새창"
-                  class="ref_lk"
-                  >새창</a
-                >
-              </li>
-              <li>
-                Goodfellow, I.; Bulatov, Y.; Ibarz, J.; Arnoud, S.; and Shet, V.
-                2014. Multi-digit number recognition from street view imagery
-                using deep convolutional neural networks. In ICLR2014.
-                <a
-                  href="https://static.googleusercontent.com/media/research.google.com/ko//pubs/archive/42241.pdf"
-                  target="_blank"
-                  title="새창"
-                  class="ref_lk"
-                  >새창</a
-                >
-              </li>
-              <li>
-                VGG-BiLSTM-attn &nbsp;&nbsp;
-                <em class="pcOnly">국내</em>
-                <a
-                  href="https://arxiv.org/pdf/1904.01906.pdf"
-                  target="_blank"
-                  title="새창"
-                  class="ref_lk"
-                  >새창</a
-                >
-                <em class="pcOnly">/</em>
-                <em class="pcOnly">해외-독일</em>
-                <a
-                  href="https://arxiv.org/pdf/1907.09358.pdf"
-                  target="_blank"
-                  title="새창"
-                  class="ref_lk"
-                  >새창</a
-                >
-              </li>
-              <li>
-                Scene Text Detection and Recognition : The Deep Learning
-                Era(R2AM)
-                <a
-                  href="https://arxiv.org/pdf/1811.04256.pdf"
-                  target="_blank"
-                  title="새창"
-                  class="ref_lk"
-                  >새창</a
-                >
-              </li>
-              <li>
-                GRCNN : Gated Recurrent Convolution Neural Network for OCR
-                <a
-                  href="https://papers.nips.cc/paper/6637-gated-recurrent-convolution-neural-network-for-ocr.pdf"
-                  target="_blank"
-                  title="새창"
-                  class="ref_lk"
-                  >새창</a
-                >
-                <br />
-                <em class="pcOnly">참고 : 국문발표자료</em>
-                <a
-                  href="http://stat.snu.ac.kr/idea/seminar/20180202/RNN_by.pdf"
-                  target="_blank"
-                  title="새창"
-                  class="ref_lk"
-                  >새창</a
-                >
-              </li>
-              <li>
-                Rosetta : Understanding text in images and videos with machine
-                learning
-                <a
-                  href="https://research.fb.com/wp-content/uploads/2018/10/Rosetta-Large-scale-system-for-text-detection-and-recognition-in-images.pdf"
-                  target="_blank"
-                  title="새창"
-                  class="ref_lk"
-                  >새창</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section section-components">
-      <form>
-        <input
-          v-on:change="fileSelect"
-          type="file"
-          ref="uploadedImage"
-          name="file"
-          id="uploaded-image"
-        />
-        <input v-on:click="getPredict" type="submit" />
-      </form>
-    </section>
+
   </div>
 </template>
 
